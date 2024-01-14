@@ -1,0 +1,69 @@
+.urja {
+    text-align: justify;
+    background-color: #84CEEB;
+    background-position: center;
+    background-size: cover;
+}
+.white{
+   color: white; 
+}
+.blak{
+   color: black; 
+}
+#whi{
+  color: white;
+}
+.blu{
+   background-color: #5983e8;
+}
+.base {
+  background-color: black;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+header h2 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--secondary);
+}
+header h1 {
+    font-weight: 800;
+    font-size: 1.6rem;
+    color: #84CEEB;
+}
+.navb{
+  background-color: transparent;
+}
+.image {
+  
+    background-image:  url('assets/bg1.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image1{
+  
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(7, 7, 7, 0.6)), url('assets/machine.jpg');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bprim {
+    background-color:#5983e8!important;
+    border-color: #00e4d0!important;
+    color: #fff; 
+  }
+@media only screen and (max-device-width: 1366px) {
+  .image {
+    background-attachment: scroll;
+  }
+  .image1 {
+    background-attachment: scroll;
+  }
+}
