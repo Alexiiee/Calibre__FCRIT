@@ -60,6 +60,12 @@ header h1 {
   }
 }
 
+@media only screen and (max-device-width: 550px) {
+  .blak{
+    flex-direction: column; 
+ }
+}
+
 .card{
   min-height: 350px;
   max-width: 720px;
